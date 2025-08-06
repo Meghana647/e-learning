@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <style>
+    input, button, div, label {
+      display: block;
+    }
+    body {
+      background-color: palegreen;
+    }
+    div {
+      border: 2px solid aliceblue;
+      width: 500px;
+      margin-left: 400px;
+      height: auto;
+      padding: 50px 40px;
+      margin-top: 110px;
+      background-color: aliceblue;
+      border-radius: 20px;
+      box-shadow: -10px 10px 10px black;
+      margin-bottom: 100px;
+    }
+    label {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    input, textarea {
+      font-size: 18px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #999;
+      padding: 8px;
+      width: 90%;
+      opacity: 0.9;
+    }
+    button {
+      width: 300px;
+      padding: 12px;
+      font-size: 18px;
+      background-color: palegreen;
+      border: none;
+      font-weight: bold;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      margin-top: 10px;
+    }
+    h3 {
+      text-align: center;
+      font-size: 36px;
+    }
+    .flex-container {
+      display: flex;
+      font-size: 20px;
+      margin-top: 50px;
+      background-color: black;
+      width: 100%;
+      height: 50px;
+    }
+    .navbar
+        {
+            display: inline-block;
+            color:white;
+            margin-left: 60px;
+            width:200px;
+            text-align: center;
+            padding-top: 10px;
+            text-decoration-line: none;
+        }
+        .navbar:hover
+        {
+            background-color: gold;
+            text-decoration-line: none;
+        }
+    p{
+      font-size: 30px;
+    }
+    .footer
+    {
+      text-decoration:underline;
+      font-size: 25px;
+      color:black;
+    }
+  </style>
+</head>
+<body>
+  <nav class="flex-container">
+    <a class="navbar" href="index.html">Home</a>
+    <a class="navbar" href="contactus.html">Contact</a>
+    <a class="navbar" href="aboutus.html">About Us</a>
+    <a class="navbar" href="login.html">Login</a>
+    <a class="navbar" href="signup.html">Signup</a>
+  </nav>
+  <div>
+    <h3>Contact Us</h3>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your name" />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Your email" />
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" placeholder="Your message"></textarea>
+
+    <button>Send Message</button>
+  </div>
+  <div>
+    <label style="font-size: 30px;">For Support</label>
+    <a class="footer" href="mailto:TeamEdu@gmail.com">MailUs</a>
+    <p>
+      LearnOntheGo Private Limited.<br>
+      Madhapur<br>
+      Hyderabad
+    </p>
+  </div>
+</body>
+</html>

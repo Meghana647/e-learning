@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+          background-image: url("logo.png");
+          background-repeat: no-repeat;
+        }
+         
+         .navbar:hover {
+      text-decoration: underline;
+    }
+         
+        .flex-container
+        {
+            display: flex;
+            font-size:20px;
+            margin-top:10px;
+            background-color: goldenrod;
+            width:100vw;
+            height:50px;
+        }
+        .navbar
+        {
+            display: inline-block;
+            color:white;
+            margin-left: 60px;
+            width:200px;
+            text-align: center;
+            padding-top: 10px;
+            text-decoration-line: none;
+        }
+        .navbar:hover
+        {
+            background-color: black;
+            text-decoration-line: none;
+        }
+        .hero
+        {
+          height:400px;
+          background-image: url("logo.png");
+        }
+       .signup {
+      background-color: rgb(2, 112, 185);
+      width: 200px;
+      padding: 12px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top:1000px;
+      display: block;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s, transform 0.2s;
+      margin-left:550px;
+      color:aliceblue
+    }
+
+    .signup:hover {
+      background-color: #90ee90;
+      transform: scale(1.03);
+    }
+    .asign
+    {
+      text-decoration: none;
+    }
+    .flex-section
+    {
+      display: flex;
+      width:100vw;
+    }
+    .groupcard
+    {
+      margin-left:40px;
+      width:390px;
+      text-align: center;
+      text-transform: capitalize;
+      font-size:20px;
+      font-weight: bold;
+      background-color: rgb(2, 112, 185);
+      border-radius: 20px;
+      color: white;
+
+    }
+    .join
+    {
+     margin-left: 10px;
+            margin-top:20px;
+            width:70x;
+            height:40px;
+            border:2px solid white;
+            border-radius:5px;
+            background-color: white;
+            font-weight: bold;
+            font-size:25px;
+            margin-bottom: 30px;
+    }
+    .create
+    {
+      background-color:rgb(2, 112, 185);
+      width: 200px;
+      padding: 12px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top:50px;
+      display: block;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s, transform 0.2s;
+      margin-left:550px;
+      color:white;
+    }
+    </style>
+</head>
+<body>
+    <nav class="flex-container">
+    <a class ="navbar" href="index.html">Home</a>
+    <a class ="navbar" href="contactus.html">Contact</a>
+    <a class ="navbar" href="aboutus.html">About Us</a>
+    <a class ="navbar" href="login.html">Login</a>
+    <a class ="navbar" href="signup.html">Signup</a>
+    </nav>
+   <a class="asign" href="signup.html">
+    <button class="signup">Get Started</button>
+   </a>
+   <h1 style="text-align:center;">
+    Join Student Groups
+   </h1>
+   <div class="flex-section">
+    <div class="groupcard">
+      <h2>AI</h2>
+    <p>1Cr+ members</p>
+    <p>Created By David</p>
+    <button class="join">Join</button>
+    </div>
+    <div class="groupcard">
+      <h2>HTML+CSS+JAVASCRIPT</h2>
+    <p>93.5L+ members</p>
+    <p>Created By Krishna</p>
+    <button class="join">Join</button>
+    </div>
+    <div class="groupcard">
+      <h2>Machine Learning</h2>
+    <p>80L members</p>
+    <p>Created By Daniya</p>
+    <button class="join">Join</button>
+    </div>
+   </div>
+   <button class="create">Create a Group</button>
+</body>
+<script>
+</script>
+</html>
